@@ -2,7 +2,6 @@ package gui.controller;
 
 import gui.view.HipsterFrame;
 import hipster.model.Hipster;
-import gui.view.HipsterPanel;
 
 
 public class Controller 
@@ -12,7 +11,9 @@ public class Controller
 	
 	public Controller()
 	{
+		firstHipster = new Hipster();
 		baseFrame = new HipsterFrame(this);
+		
 	}
 	
 	public void start()
