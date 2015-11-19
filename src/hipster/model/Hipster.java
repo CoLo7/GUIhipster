@@ -18,9 +18,9 @@ public class Hipster
 	private void setupArray()
 	{
 		hipsterPhrases[0] = "That is so mainsteam!";
-		hipsterPhrases[1] = "I don't mean to sound like a hipster, but,";
+		hipsterPhrases[1] = "Vegan is the only way!";
 		hipsterPhrases[2] = "insert sarcastic";
-		hipsterPhrases[3] = "I was into some before it was cool";
+		hipsterPhrases[3] = "You just aren't that into it";
 	}
 	
 	private void setupBooks()

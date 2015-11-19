@@ -13,6 +13,7 @@ public class HipsterFrame extends JFrame
 	{
 		this.baseController = baseController;
 		basePanel = new HipsterPanel(baseController);
+		
 		setupFrame();
 	}
 	

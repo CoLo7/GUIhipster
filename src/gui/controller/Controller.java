@@ -18,9 +18,9 @@ public class Controller
 	
 	public void start()
 	{
-		String myName = baseFrame.getResponse("What is your name?");
+		String myName = baseFrame.getResponse("What's your name brotha/sista?");
 		firstHipster.setName(myName);
-		baseFrame.setTitle(myName + "'s project name");
+		baseFrame.setTitle(myName + "'s Book LookUp");
 		
 	}
 	
